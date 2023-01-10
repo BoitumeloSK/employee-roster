@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Employee Roster</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    
+    <div class="form">
+    <form>
+      <input required type="text" placeholder="Enter employee name" id="employee-name"/>
+      <input required type="number" placeholder="Enter employee age" id="employee-age"/>
+      <input type="text" readonly value="Employee" id="employee-role"/>
+      <input type="text" readonly value="https://via.placeholder.com/25" id="employee-image"/>
+      <input type="submit" value="Add employee" id="add-btn"/>
+    </form>
+</div>
+    <hr />
+    <div id="existing-employees"></div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
